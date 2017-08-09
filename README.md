@@ -14,15 +14,15 @@ http://sparkler.site
 
 ## DEPLOY
 
-```sh
-# 鍵認証による接続 (ロールマシンより)
+```
+(鍵認証による接続 ローカルマシンより)
 $ ssh yonabemt@yonabemt.sakura.ne.jp
 
-# さくらのレンタルサーバーは csh
+(さくらのレンタルサーバーは csh)
 % pwd
 /home/yonabemt
 
-# 移動後 git を最新の状態に
+(移動後 git を最新の状態に)
 % cd www/sparkler/
 % pwd
 /home/yonabemt/www/sparkler
