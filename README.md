@@ -6,13 +6,16 @@ sparkler - 線香花火大会のサイト
 
 ## URL
 
-- <http://sparkler.site/> - sparkler 線香花火大会
+- <https://sparkler.becom.work/> - sparkler 線香花火大会
 
 ## DEPLOY
 
 ```
 (鍵認証による接続 ローカルマシンより)
 $ ssh becom@becom.sakura.ne.jp
+
+(もしくは)
+$ ssh becom@sparkler.becom.work
 
 (さくらのレンタルサーバーは csh)
 % pwd
