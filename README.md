@@ -2,36 +2,23 @@
 
 sparkler - 線香花火大会のサイト
 
-# SYNOPSIS
+## SYNOPSIS
 
 ## URL
 
-- <https://sparkler.becom.work/> - sparkler 線香花火大会
+- <https://sparkler.becom.co.jp/> - sparkler 線香花火大会
 
 ## DEPLOY
 
-```
-(鍵認証による接続 ローカルマシンより)
-$ ssh becom@becom.sakura.ne.jp
-
-(もしくは)
-$ ssh becom@sparkler.becom.work
-
-(さくらのレンタルサーバーは csh)
-% pwd
-/home/becom
-
-(移動後 git を最新の状態に)
-% cd www/sparkler/
-% pwd
-/home/becom/www/sparkler
-
-% git fetch
-% git pull origin master
+```zsh
+ssh becom2022@becom2022.sakura.ne.jp
+cd ~/www/sparkler
+git fetch && git checkout master && git pull
 ```
 
-# HISTORY
+## HISTORY
 
 - 2017-07-24 公開
+- 2022-07-11 公開サーバー移転につき調整
 
-# SEE ALSO
+## SEE ALSO
